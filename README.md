@@ -16,7 +16,8 @@ The material concerns people with intellectual disabilities and should be read w
 
 | Path | Purpose |
 | --- | --- |
-| `MINDS_analysis.ipynb` | Data preparation, descriptive analysis, visualisation, and regression workflow. |
+| [`MINDS_analysis.ipynb`](./MINDS_analysis.ipynb) | Data preparation, descriptive analysis, visualisation, and regression workflow. |
+| [`DATA_NOTES.md`](./DATA_NOTES.md) | Public-data boundary, field dictionary, and appropriate-use guidance. |
 
 ## Historical environment
 
