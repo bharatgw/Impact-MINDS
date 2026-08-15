@@ -1,18 +1,38 @@
-# Impact-MINDS
+# Impact analysis for MINDS Yishun Training and Development Centre
 
-This analysis was conducted for MINDS Yishun Training and Development Center for the intellectually-challenged with the primary motive to identify the impact of YTDC's activities on beneficiaries' wellbeing and capabilities.
+> Historical portfolio project. This repository is preserved as an academic analysis and is not an official MINDS operational report.
 
-The data used was originally internal but has been randomized for this presentation. Hence, no significant insights can be derived but the methodology is retained.
+## Overview
 
-The report primarily uses linear regressions to identify the effect of MINDS's activities on beneficiaries wellbeing score (0 to 5) or MISO scores, either via individual indicators (-1 to 1) or via aggregation (-9 to 9).
+This project studied a methodology for assessing how activities at MINDS Yishun Training and Development Centre might relate to beneficiaries' wellbeing and capability measures. The analysis uses pre- and post-service indicators and regression-based comparisons.
 
-Here's a description of the variables used in the dataset:
-| Variable   | Description                                                                                            |
-|------------|--------------------------------------------------------------------------------------------------------|
-| Activity   | {Daily Walks, Community Mobility or Arts & Craft}                                                      |
-| Contact ID | A beneficiary identifier                                                                               |
-| Stage      | The stage of the assessment {Pre-Service, Post-Service}                                                |
-| Question   | Question posed to the beneficiary, One-to-one associated with the indicator used                       |
-| Rating     | The rating ascribed by the respondent. {-1,0,1} for MISO indicators and {0 to 5} for General Wellbeing |
-| Text       | Long Text Responses, usually describing the respondent's score                                         |
-| Indicator  | MISO or wellbeing indicator being measured, One-to-one associated with the question posed              |
+## Important data notice
+
+The original project involved internal data. The notebook published here uses randomized presentation data so that the methodology can be shown without publishing the original records. Results produced from the randomized data must not be interpreted as evidence about individual beneficiaries, programme effectiveness, or MINDS.
+
+The material concerns people with intellectual disabilities and should be read with appropriate care. The repository is intended to demonstrate an analytical workflow, not to support clinical, policy, or service-delivery decisions.
+
+## Repository contents
+
+| Path | Purpose |
+| --- | --- |
+| `MINDS_analysis.ipynb` | Data preparation, descriptive analysis, visualisation, and regression workflow. |
+
+## Historical environment
+
+The notebook records a Python 3.8.5 32-bit kernel and uses:
+
+- pandas
+- NumPy
+- Matplotlib
+- statsmodels
+
+The environment is not pinned and compatibility with current package releases has not been verified. The saved notebook output is retained as part of the historical artifact.
+
+## Measures represented
+
+The notebook works with activity, assessment stage, question, rating, text, and indicator fields. Ratings include MISO-style indicators and general wellbeing scores. See the notebook for the precise transformations used in the original analysis.
+
+## License and reuse
+
+No open-source license has been applied. The project is shared for viewing as portfolio work. The organization name, methodology context, and any third-party materials remain subject to their respective rights.
